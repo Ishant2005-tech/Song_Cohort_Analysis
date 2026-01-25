@@ -1,10 +1,18 @@
 # Song Cohort Analysis
 
-A comprehensive analysis project for grouping songs into cohorts based on audio features and identifying patterns across different song clusters.
+This project explores how songs can be grouped into meaningful cohorts using their audio features. 
+The goal was to understand patterns in music data and apply unsupervised learning techniques in a practical way.
+
 
 ## Project Overview
 
 This project performs exploratory data analysis, feature engineering, PCA dimensionality reduction, and K-means clustering on a song dataset to identify distinct cohorts of songs with similar audio characteristics.
+
+## Why this project
+
+I built this project to practice a complete data analysis workflow on a real-world style dataset.
+It focuses on understanding audio features, applying PCA, and using clustering to uncover patterns
+that could be useful for music recommendation or playlist grouping.
 
 ## Directory Structure
 
@@ -108,6 +116,12 @@ pip install -r requirements.txt
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Key Insights
+
+- Songs naturally formed distinct clusters based on energy, tempo, and danceability
+- PCA helped reduce feature complexity while preserving most of the variance
+- Some clusters represented high-energy tracks, while others were calmer and more acoustic
+
 ## Author
 
-Data Analysis Team
+Ishant Raj Kashyap
